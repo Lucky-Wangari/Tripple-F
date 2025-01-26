@@ -36,7 +36,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="relative w-full h-[500px]">
         <Image 
-          src="/background-image.jpg" // Replace with the correct image path
+          src="../../public/images/feeds.jpg" 
           alt="Animal Feed Background"
           layout="fill"
           objectFit="cover"
@@ -55,7 +55,7 @@ export default function HeroSection() {
 
         {/* Button */}
         <a 
-          href="/contact" 
+          href="" 
           className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
         >
           Contact Us
