@@ -8,7 +8,7 @@ export default function HeroSection() {
         {/* Logo */}
         <div className="flex items-center space-x-3">
           <Image 
-            src="/logo.png" // Replace with your logo path
+            src="/images/chickens.jpg" 
             alt="Farmers Fresh Feeds Logo"
             width={50}
             height={50}
@@ -36,7 +36,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="relative w-full h-[500px]">
         <Image 
-          src="../../public/images/feeds.jpg" 
+          src="/feeds.jpg" 
           alt="Animal Feed Background"
           layout="fill"
           objectFit="cover"
