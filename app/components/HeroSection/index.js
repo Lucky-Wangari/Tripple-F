@@ -16,9 +16,9 @@ export default function HeroSection() {
       </div>
 
       {/* Overlay Content */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white bg-black bg-opacity-50">
+      <div className="text-left bsolute inset-0 flex flex-col justify-center items-center text-center text-white bg-black bg-opacity-50">
         {/* Headline */}
-        <h1 className="text-4xl font-bold mb-4">One Stop for Readily Mixed</h1>
+        <h1 className=" text-4xl font-bold mb-4">One Stop for Readily Mixed</h1>
         <h1 className="text-4xl font-bold mb-4">Animal Feeds and Raw Materials</h1>
 
         {/* Subheadline */}
